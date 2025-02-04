@@ -6,7 +6,7 @@ import re
 API_KEY = 'FKSNQAZV26BXS6U7322ABEHQ3USE8R9MM3'
 
 def parse_holders_page(contract_address):
-    url = f"https://etherscan.io/token/tokenholderchart/{contract_address}/?range=10"
+    url = f"https://etherscan.io/token/tokenholderchart/{contract_address}/?range=50"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
     }
